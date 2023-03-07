@@ -15,7 +15,7 @@ class ClickCounter extends Component {
 
   render() {
     const {count} = this.state
-    return(
+    return (
       <div className="counter-container">
         <h1 className="counter-heading">
           The Button has been clicked
@@ -31,7 +31,7 @@ class ClickCounter extends Component {
             Click Me!
           </button>
         </div>
-      </div>,
+      </div>
     )
   }
 }
